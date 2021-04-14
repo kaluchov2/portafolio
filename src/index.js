@@ -5,9 +5,9 @@ import { Routes } from './router/Routes';
 
 
 ReactDOM.render(
-  <React.StrictMode>
-      <Routes/>
-  </React.StrictMode>,
+  
+      <Routes/>,
+
   document.getElementById('root')
 );
 

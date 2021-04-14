@@ -7,7 +7,7 @@ import { Home } from '../pages/Home';
 export const Routes = () => {
     return (
         <>
-            <Router basename="/portafolio">
+            <Router basename={process.env.PUBLIC_URL}>
                 <Navbar/>
                 <Switch >
                     <Route exact path="/" render component ={Home} />
