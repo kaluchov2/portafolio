@@ -7,9 +7,9 @@ import { Home } from '../pages/Home';
 export const Routes = () => {
     return (
         <>
-            <Router>
+            <Router basename="/portafolio">
                 <Navbar/>
-                <Switch>
+                <Switch >
                     <Route exact path="/" render component ={Home} />
                 </Switch>
             </Router>
